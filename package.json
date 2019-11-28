@@ -1,0 +1,22 @@
+{
+    "name": "cryptonight-hashing",
+    "version": "1.0.0",
+    "license": "GPL-3.0-or-later",
+    "main": "cryptonight-hashing",
+    "Maintained by": "vermin",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/MoneroOcean/node-cryptonight-hashing.git"
+    },
+    "dependencies": {
+        "bindings": "*",
+        "nan":      "^2.8.0"
+    },
+    "keywords": [
+        "cryptonight",
+        "cryptonote",
+        "forknote",
+        "bytecoin",
+        "monero"
+    ]
+}
