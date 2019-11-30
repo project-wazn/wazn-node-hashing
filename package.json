@@ -3,10 +3,10 @@
     "version": "1.0.0",
     "license": "GPL-3.0-or-later",
     "main": "cryptonight-hashing",
-    "Maintained by": "vermin",
+    "maintained by": "vermin",
     "repository": {
         "type": "git",
-        "url": "git://github.com/MoneroOcean/node-cryptonight-hashing.git"
+        "url": "git://github.com/vermin/wazn-node-hashing.git"
     },
     "dependencies": {
         "bindings": "*",

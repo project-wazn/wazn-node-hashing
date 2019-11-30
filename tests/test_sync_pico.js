@@ -5,11 +5,11 @@ let lineReader = require('readline');
 
 let testsFailed = 0, testsPassed = 0;
 let lr = lineReader.createInterface({
-     input: fs.createReadStream('CRYPTONIGHT_PLEX.txt')
+     input: fs.createReadStream('cryptonight_pico.txt')
 });
 lr.on('line', function (line) {
      let line_data = line.split(/ (.+)/);
-     let result = multiHashing.CRYPTONIGHT_PLEX(Buffer.from(line_data[1], 'hex')).toString('hex');
+     let result = multiHashing.cryptonight_pico(Buffer.from(line_data[1], 'hex')).toString('hex');
      if (line_data[0] !== result){
          console.error(line_data[1] + ": " + result);
          testsFailed += 1;
@@ -19,8 +19,8 @@ lr.on('line', function (line) {
 });
 lr.on('close', function(){
     if (testsFailed > 0){
-        console.log(testsFailed + '/' + (testsPassed + testsFailed) + ' tests failed on: CRYPTONIGHT_PLEX');
+        console.log(testsFailed + '/' + (testsPassed + testsFailed) + ' tests failed on: cryptonight_pico');
     } else {
-        console.log(testsPassed + ' tests passed on: CRYPTONIGHT_PLEX');
+        console.log(testsPassed + ' tests passed on: cryptonight_pico');
     }
 });
