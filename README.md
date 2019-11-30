@@ -1,7 +1,7 @@
 WAZN Node.js Hashing
 ======================
 
-[![License](https://img.shields.io/badge/license-ISC-green?style=flat-square&logo=appveyor)](https://opensource.org/licenses/ISC)
+[![License](https://img.shields.io/badge/license-ISC-brightgreen?style=flat-square)](https://opensource.org/licenses/ISC)
 
 Cryptonight hashing functions for node.js.
 
