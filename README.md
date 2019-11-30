@@ -1,7 +1,7 @@
 WAZN Node.js Hashing
 ======================
 
-[![License](https://img.shields.io/badge/license-ISC-brightgreen?style=flat-square)](https://opensource.org/licenses/ISC)
+[![License](https://img.shields.io/badge/license-ISC-brightgreen)](https://opensource.org/licenses/ISC)
 
 Cryptonight hashing functions for node.js.
 
@@ -21,7 +21,7 @@ node_modules/cryptonight-hashing/tests/run.sh
 ```
 
 ## Credits
--------
+
 * [XMrig](https://github.com/xmrig) - For advanced cryptonight implementations from [XMrig](https://github.com/xmrig/xmrig)
 
 ## License
