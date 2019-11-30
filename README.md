@@ -1,4 +1,4 @@
-WAZN Node.js Hashing - WORK IN PROGRESS
+WAZN Node.js Hashing
 ===============
 
 Cryptonight hashing functions for node.js.
