@@ -6,7 +6,7 @@
     "maintained by": "vermin",
     "repository": {
         "type": "git",
-        "url": "git://github.com/vermin/wazn-node-hashing.git"
+        "url": "git://github.com/project-wazn/wazn-node-hashing.git"
     },
     "dependencies": {
         "bindings": "*",
