@@ -1,5 +1,5 @@
 {
-    "name": "wazn-hashing",
+    "name": "waznhashing",
     "version": "1.0.0",
     "description": "Cryptonight WAZN hashing functions for Node.js",
     "author": "Multiple",
@@ -9,7 +9,7 @@
         "type": "git",
         "url": "git://github.com/project-wazn/wazn-node-hashing.git"
     },
-    "main": "wazn-hashing",
+    "main": "waznhashing",
     "dependencies": {
         "bindings": "*",
         "nan": "^2.8.0"

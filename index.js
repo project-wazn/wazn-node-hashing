@@ -1,1 +1,1 @@
-module.exports = require('bindings')('wazn-hashing.node')
+module.exports = require('bindings')('waznhashing.node')

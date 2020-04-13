@@ -14,14 +14,14 @@ Cryptonight hashing functions for Node.js.
 ## Installation and testing
 ```bash
 npm install https://github.com/project-wazn/wazn-node-hashing
-node_modules/wazn-hashing/tests/run.sh
+node_modules/waznhashing/tests/run.sh
 ```
 
 ## Usage
 This is a native Node.js addon and and is used for following hashing algorithms:
 
 ```javascript
-var multiHashing = require('wazn-hashing');
+var multiHashing = require('waznhashing');
 
 var algorithms = ['cryptonight', 'cryptonight-wazn', 'cryptonight_heavy'];
 

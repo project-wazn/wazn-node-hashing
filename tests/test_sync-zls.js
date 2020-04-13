@@ -1,5 +1,5 @@
 "use strict";
-let multiHashing = require('../build/Release/wazn-hashing');
+let multiHashing = require('../build/Release/waznhashing');
 let fs = require('fs');
 let lineReader = require('readline');
 
