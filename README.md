@@ -9,21 +9,21 @@ Cryptonight hashing functions for Node.js.
 * cn-wazn1
 * cn-extremelite
 * cn-upx2
-* and many more cn-?? algorithms
+* and many more cn- algorithms
 
 ## Installation and testing
 ```bash
 npm install https://github.com/project-wazn/wazn-node-hashing
-node_modules/cryptonight-hashing/tests/run.sh
+node_modules/wazn-hashing/tests/run.sh
 ```
 
 ## Usage
 This is a native Node.js addon and and is used for following hashing algorithms:
 
 ```javascript
-var multiHashing = require('cryptonight-hashing');
+var multiHashing = require('wazn-hashing');
 
-var algorithms = ['cryptonight', 'cryptonight-wazn', 'cryptonight_upx'];
+var algorithms = ['cryptonight', 'cryptonight-wazn', 'cryptonight_heavy'];
 
 var data = new Buffer("7000000001e980924e4e1109230383e66d62945ff8e749903bea4336755c00000000000051928aff1b4d72416173a8c3948159a09a73ac3bb556aa6bfbcad1a85da7f4c1d13350531e24031b939b9e2b", "hex");
 
@@ -44,5 +44,5 @@ console.log(hashedData);
 ## License
 ```
 Licensed under the ISC
-Copyright (c) 2019 WAZN Project  
+Copyright (c) 2019-2020 WAZN Project  
 ```

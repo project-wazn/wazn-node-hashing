@@ -1,5 +1,5 @@
 "use strict";
-let multiHashing = require('../build/Release/cryptonight-hashing');
+let multiHashing = require('../build/Release/wazn-hashing');
 
 const ITER = 200;
 let input = Buffer.from("test");

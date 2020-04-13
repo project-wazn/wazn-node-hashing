@@ -1,7 +1,7 @@
 {
     "targets": [
         {
-            "target_name": "cryptonight-hashing",
+            "target_name": "wazn-hashing",
             "sources": [
                 '<!@(uname -a | grep "x86_64" >/dev/null && echo "xmrig/crypto/asm/cn_main_loop.S" || echo)',
                 '<!@(uname -a | grep "x86_64" >/dev/null && echo "xmrig/crypto/asm/CryptonightR_template.S" || echo)',

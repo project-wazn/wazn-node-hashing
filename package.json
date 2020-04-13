@@ -1,20 +1,21 @@
 {
-    "name": "cryptonight-hashing",
+    "name": "wazn-hashing",
     "version": "1.0.0",
     "description": "Cryptonight WAZN hashing functions for Node.js",
     "author": "Multiple",
     "maintained by": "vermin",
     "license": "ISC",
-    "main": "cryptonight-hashing",
     "repository": {
         "type": "git",
         "url": "git://github.com/project-wazn/wazn-node-hashing.git"
     },
+    "main": "wazn-hashing",
     "dependencies": {
         "bindings": "*",
-        "nan":      "^2.8.0"
+        "nan": "^2.8.0"
     },
     "keywords": [
+        "wazn",
         "cryptonight",
         "cryptonote",
         "forknote",
