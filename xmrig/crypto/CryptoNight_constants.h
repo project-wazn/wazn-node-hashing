@@ -64,7 +64,7 @@ constexpr const uint32_t CRYPTONIGHT_WAZN_ITER   = 0x4000;
 
 template<Algo ALGO> inline constexpr size_t cn_select_memory()           { return 0; }
 template<> inline constexpr size_t cn_select_memory<CRYPTONIGHT>()       { return CRYPTONIGHT_MEMORY; }
-template<> inline constexpr size_t cn_select_memory<CRYPTONIGHT_LITE_>()  { return CRYPTONIGHT_LITE_MEMORY; }
+template<> inline constexpr size_t cn_select_memory<CRYPTONIGHT_LITE>()  { return CRYPTONIGHT_LITE_MEMORY; }
 template<> inline constexpr size_t cn_select_memory<CRYPTONIGHT_HEAVY>() { return CRYPTONIGHT_HEAVY_MEMORY; }
 template<> inline constexpr size_t cn_select_memory<CRYPTONIGHT_WAZN>()  { return CRYPTONIGHT_WAZN_MEMORY; }
 

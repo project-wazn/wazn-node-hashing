@@ -6,8 +6,8 @@ WAZN Node.js Hashing
 Cryptonight hashing functions for Node.js.
 
 ## Algorithms:
-* cn-wazn1
-* cn-extremelite
+* cn-wazn
+* cn-ultralite
 * cn-upx2
 * and many more cn- algorithms
 
